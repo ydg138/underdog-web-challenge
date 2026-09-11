@@ -49,3 +49,24 @@ header {
   padding: 24px;      /* 안쪽 여백 */
   text-align: center; /* 글씨를 박스 가운데로 정렬 */
 }
+
+/* 전체 내용을 가운데로 모으고 최대 너비 설정 */
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* 프로필 이미지와 소개글을 가로로 나란히 배치 */
+.profile-box {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+/* 화면이 좁아지면(모바일 화면) 세로로 정렬되도록 변경 */
+@media (max-width: 600px) {
+  .profile-box {
+    flex-direction: column;
+    text-align: center;
+  }
+}
