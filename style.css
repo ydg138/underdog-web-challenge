@@ -1,0 +1,51 @@
+/* 1. 페이지 전체 배경색과 글자색, 글꼴 정하기 */
+body {
+  background-color: #f4f6f8;
+  color: #333333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 2. 제목 크기와 색상 바꾸기 */
+h1 {
+  color: #2c3e50;
+  font-size: 38px;
+}
+h2 {
+  color: #34495e;
+  font-size: 24px;
+}
+
+/* 3. 각 구역(section)에 배경색, 여백, 테두리 적용하기 */
+section {
+  background-color: #ffffff;
+  border: 2px solid #e0e6ed;
+  border-radius: 16px;
+  margin: 20px;   /* 박스 바깥쪽 여백 (다른 박스와의 거리) */
+  padding: 24px;  /* 박스 안쪽 여백 (테두리와 글자 사이의 간격) */
+}
+
+/* 4. 프로필 이미지를 적당한 크기로 조절하고 둥글게 만들기 */
+img {
+  width: 180px;
+  border-radius: 50%; /* 이미지를 완전한 원형으로 만듦 */
+}
+
+/* 5. 링크가 눈에 띄도록 버튼처럼 꾸미기 */
+footer a {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+/* 상단 머리말(header) 구역 깔끔하게 맞추기 */
+header {
+  background-color: #ffffff;
+  border: 2px solid #e0e6ed;
+  border-radius: 16px;
+  margin: 20px;       /* 아래 section과 동일한 바깥 여백으로 줄 맞추기 */
+  padding: 24px;      /* 안쪽 여백 */
+  text-align: center; /* 글씨를 박스 가운데로 정렬 */
+}
